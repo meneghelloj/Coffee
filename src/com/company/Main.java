@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Instant dateNow = Instant.now();
-        Instant endOfShift = dateNow.plus(Duration.ofMinutes(1));
+        Instant endOfShift = dateNow.plus(Duration.ofHours(8));
         int coffeeCount = 0;
         Scanner read = new Scanner(System.in);
         System.out.println("What's your name?");
