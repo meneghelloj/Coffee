@@ -6,7 +6,7 @@ public class Programmer {
     public String getProgrammerName() {
         return programmerName;
     }
-
+    //default Name
     String programmerName="Josh";
 
     public String getPreferredLanguage() {
@@ -16,7 +16,7 @@ public class Programmer {
     public void setPreferredLanguage(String preferredLanguage) {
         this.preferredLanguage = preferredLanguage;
     }
-
+    //default Programming Language
     String preferredLanguage="Java";
 
     public void drink(CoffeeMug coffeeMug) {

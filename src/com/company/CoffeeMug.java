@@ -1,7 +1,7 @@
 package com.company;
 
 public class CoffeeMug {
-    //Coffee mugCoffee = new Coffee(0, 0, 0);
+
     Coffee mugCoffee;
     public CoffeeMug(Coffee mugCoffee) {
         this.mugCoffee = mugCoffee;
