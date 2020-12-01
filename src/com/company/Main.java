@@ -66,5 +66,6 @@ public class Main{
             view.changeState("Typing");
         }
         System.out.println("Shift is over! " + programmer.getProgrammerName() + " drank " + coffeeCount + " coffees while working on " + programmer.getPreferredLanguage());
+        System.exit(0);
     }
 }
